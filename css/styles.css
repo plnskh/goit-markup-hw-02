@@ -48,10 +48,10 @@ body {
 
 .nav-menu-link {
     color: var(--navy-color);
-    font-style: normal;
+    font-style: 20px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: var(--standart-letter-spacing);
 }
 
@@ -72,6 +72,11 @@ body {
     color: var(--slate-color);
 }
 
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
 .clickbate {
     background: var(--navy-color);
 }
@@ -80,13 +85,12 @@ body {
     color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07px;
+    line-height: 1.07;
     letter-spacing: var(--standart-letter-spacing);
     text-align: center;
 }
 
-
-.top-button {
+.clickbate-button {
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
@@ -94,6 +98,24 @@ body {
     line-height: 24px;
     color: var(--white-color);
     background: var(--iris-color);
+    letter-spacing: 0.04em;
+}
+
+.clickbate-button:hover,
+.clickbate-button:focus {
+    color: #ffffff;
+    background: var(--ocean-color);
+    color: #404bbf
+}
+
+.top-button {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--iris-color);
+    background-color: var(--cloud-color);
     letter-spacing: 0.04em;
 
 }
@@ -140,6 +162,12 @@ body {
 }
 .team-list-item {
     background-color: #ffffff;
+}
+
+.filter {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 
