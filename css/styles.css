@@ -33,11 +33,11 @@ body {
 
 .logo {
     color: var(--iris-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -53,6 +53,11 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: var(--standart-letter-spacing);
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus {
+    color: #404bbf
 }
 
 .address {
@@ -75,23 +80,28 @@ body {
     color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07px;
     letter-spacing: var(--standart-letter-spacing);
+    text-align: center;
 }
 
 
 .top-button {
+    cursor: pointer;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: var(--white-color);
     background: var(--iris-color);
+    letter-spacing: 0.04em;
+
 }
 .top-button:hover,
 .top-button:focus {
     color: #ffffff;
     background: var(--ocean-color);
+    color: #404bbf
 }
 
 .features-name, 
@@ -110,6 +120,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: var(--slate-color);
 }
 
 .services-list,
@@ -117,8 +128,11 @@ body {
 .service-name {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     color: var(--navy-color);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em
 }
 
 .team {
@@ -134,7 +148,9 @@ body {
 }
 
 .footer-descr {
-    color: var(--white-color);
+    color: var(--cloud-color);
+     line-height: 1.5;
+     letter-spacing: 0.02em;
 }
 .footer {
     background: var(--navy-color);
