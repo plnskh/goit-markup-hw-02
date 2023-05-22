@@ -51,7 +51,7 @@ body {
     font-style: 20px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: var(--standart-letter-spacing);
 }
 
@@ -123,7 +123,6 @@ body {
 .top-button:focus {
     color: #ffffff;
     background: var(--ocean-color);
-    color: #404bbf
 }
 
 .features-name, 
@@ -146,17 +145,25 @@ body {
 }
 
 .services-list,
-.team-list,
-.service-name {
+.team-list {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     color: var(--navy-color);
     text-align: center;
     text-transform: capitalize;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
+.service-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-color);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em
+}
 .team {
     background: var(--cloud-color);
 }
